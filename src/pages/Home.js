@@ -4,12 +4,12 @@ import Popular from '../components/Popular'
 
 function Home() {
     return (
-        <div>
+       
             <div>
                 <Veggie/>
                 <Popular/>
             </div>
-        </div>
+        
     )
 }
 

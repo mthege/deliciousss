@@ -1,9 +1,17 @@
-import Home from './pages/Home'
+import React from 'react'
+import Pages from './pages/Pages';
+import Category from './components/Category';
+import Search from './components/Search';
+import { BrowserRouter } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
-<h1>Hello</h1>
-<Home/>
+      <BrowserRouter>
+        <Search/>
+        <Category/>
+        <Pages/>
+      </BrowserRouter>
     </div>
   );
 }
